@@ -1,0 +1,245 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Sorry App for My Girlfriend
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+      background: #ffe6f0;
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+    }
+    h1, h2 {
+      font-family: 'Great Vibes', cursive;
+    }
+    /* Floating hearts and roses animation */
+    .floating {
+      position: fixed;
+      bottom: -100px;
+      animation-name: floatUp;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      opacity: 0.8;
+      user-select: none;
+      pointer-events: none;
+      z-index: 10;
+    }
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+    /* Game styles */
+    #gameCanvas {
+      background: #fff0f6;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+      display: block;
+      margin: 0 auto;
+      touch-action: none;
+    }
+  </style>
+ </head>
+ <body class="flex flex-col min-h-screen items-center justify-center px-4 py-8 relative">
+  <h1 class="text-5xl md:text-6xl text-pink-600 mb-6 text-center select-none">
+   I'm Sorry, My Love ❤️
+  </h1>
+  <section class="max-w-xl w-full bg-white bg-opacity-80 rounded-3xl p-8 shadow-lg mb-10">
+   <p class="text-xl md:text-2xl text-pink-700 text-center leading-relaxed font-semibold">
+    i am sorry betuuu har chiz ke liye sorry betuuu 
+    <br/>
+    abse nhi hoga betuuu sachi uchi awaz mw kabhi bhi baat nhi karunga
+    <br/>
+    i love you so much my cute littel baby ❤️🙏
+    <br/>
+    i love you so much betuuu ❤️
+    <br/>
+    maaf karde aj se pka kuch nhi karunga sorry ❤️
+    <br/>
+    i love you so much tu jaan hai meri ❤️
+   </p>
+  </section>
+  <section class="max-w-xl w-full bg-white bg-opacity-80 rounded-3xl p-6 shadow-lg mb-10">
+   <h2 class="text-3xl text-pink-600 mb-4 text-center font-semibold select-none">
+    A Lovely Hindi Song for You
+   </h2>
+   <iframe width="350" height="197"
+  src="https://www.youtube.com/embed/DDgAWVPgDH8?autoplay=0"
+  title="Pasandida Aurat - Akhil ft. Simar Kaur"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+  </section>
+  <section class="max-w-xl w-full bg-white bg-opacity-80 rounded-3xl p-6 shadow-lg mb-10">
+   <h2 class="text-3xl text-pink-600 mb-4 text-center font-semibold select-none">
+    A Cute Game: Catch the Hearts
+   </h2>
+   <canvas class="mx-auto rounded-lg" height="480" id="gameCanvas" width="320">
+   </canvas>
+   <p class="text-center mt-3 text-pink-700 font-medium select-none">
+    Use your finger or mouse to move the basket and catch the falling hearts and roses!
+   </p>
+  </section>
+  <footer class="text-center text-pink-500 font-semibold mb-6 select-none">
+   Made with ❤️ just for you
+  </footer>
+  <!-- Floating hearts and roses -->
+  <img alt="Floating red heart icon, symbolizing love" class="floating" height="40" src="https://storage.googleapis.com/a1aa/image/25e49256-806b-4a9b-84bf-b10535302912.jpg" style="left: 10vw; animation-duration: 12s; animation-delay: 0s; width: 40px; height: 40px;" width="40"/>
+  <img alt="Floating pink rose icon, symbolizing love and apology" class="floating" height="50" src="https://storage.googleapis.com/a1aa/image/ddb3c407-34ed-4a06-d4ea-78733a834ab8.jpg" style="left: 25vw; animation-duration: 15s; animation-delay: 3s; width: 50px; height: 50px;" width="50"/>
+  <img alt="Floating red heart icon, symbolizing love" class="floating" height="35" src="https://storage.googleapis.com/a1aa/image/25e49256-806b-4a9b-84bf-b10535302912.jpg" style="left: 40vw; animation-duration: 10s; animation-delay: 1.5s; width: 35px; height: 35px;" width="35"/>
+  <img alt="Floating pink rose icon, symbolizing love and apology" class="floating" height="45" src="https://storage.googleapis.com/a1aa/image/ddb3c407-34ed-4a06-d4ea-78733a834ab8.jpg" style="left: 55vw; animation-duration: 14s; animation-delay: 4.5s; width: 45px; height: 45px;" width="45"/>
+  <img alt="Floating red heart icon, symbolizing love" class="floating" height="40" src="https://storage.googleapis.com/a1aa/image/25e49256-806b-4a9b-84bf-b10535302912.jpg" style="left: 70vw; animation-duration: 13s; animation-delay: 2s; width: 40px; height: 40px;" width="40"/>
+  <img alt="Floating pink rose icon, symbolizing love and apology" class="floating" height="50" src="https://storage.googleapis.com/a1aa/image/ddb3c407-34ed-4a06-d4ea-78733a834ab8.jpg" style="left: 85vw; animation-duration: 16s; animation-delay: 5s; width: 50px; height: 50px;" width="50"/>
+  <script>
+   // Game: Catch the Hearts and Roses
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const basketWidth = 80;
+    const basketHeight = 40;
+    let basketX = (canvas.width - basketWidth) / 2;
+    const basketY = canvas.height - basketHeight - 10;
+
+    const items = [];
+    const itemTypes = [
+      {
+        type: 'heart',
+        color: '#ff4d6d',
+        radius: 15,
+        points: 10,
+        emoji: '❤',
+      },
+      {
+        type: 'rose',
+        color: '#ff6699',
+        radius: 18,
+        points: 15,
+        emoji: '🌹',
+      },
+    ];
+
+    let score = 0;
+    let gameOver = false;
+
+    // Draw basket
+    function drawBasket() {
+      ctx.fillStyle = '#ff4d6d';
+      ctx.beginPath();
+      ctx.moveTo(basketX, basketY + basketHeight);
+      ctx.lineTo(basketX + basketWidth / 2, basketY);
+      ctx.lineTo(basketX + basketWidth, basketY + basketHeight);
+      ctx.closePath();
+      ctx.fill();
+
+      // Basket handle
+      ctx.strokeStyle = '#ff1a4d';
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.moveTo(basketX + basketWidth * 0.2, basketY + basketHeight * 0.5);
+      ctx.lineTo(basketX + basketWidth * 0.8, basketY + basketHeight * 0.5);
+      ctx.stroke();
+    }
+
+    // Draw falling item
+    function drawItem(item) {
+      ctx.fillStyle = item.color;
+      ctx.font = `${item.radius * 2}px serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(item.emoji, item.x, item.y);
+    }
+
+    // Create new item
+    function createItem() {
+      const type = itemTypes[Math.floor(Math.random() * itemTypes.length)];
+      const x = Math.random() * (canvas.width - type.radius * 2) + type.radius;
+      const y = -type.radius * 2;
+      const speed = 1 + Math.random() * 2;
+      items.push({ ...type, x, y, speed });
+    }
+
+    // Update game state
+    function update() {
+      if (gameOver) return;
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      drawBasket();
+
+      // Draw and update items
+      for (let i = items.length - 1; i >= 0; i--) {
+        const item = items[i];
+        item.y += item.speed;
+
+        drawItem(item);
+
+        // Check if caught by basket
+        if (
+          item.y + item.radius > basketY &&
+          item.x > basketX &&
+          item.x < basketX + basketWidth
+        ) {
+          score += item.points;
+          items.splice(i, 1);
+          continue;
+        }
+
+        // Remove if falls below canvas
+        if (item.y - item.radius > canvas.height) {
+          items.splice(i, 1);
+        }
+      }
+
+      // Draw score
+      ctx.fillStyle = '#ff1a4d';
+      ctx.font = '20px Roboto, sans-serif';
+      ctx.textAlign = 'left';
+      ctx.fillText(`Score: ${score}`, 10, 30);
+
+      requestAnimationFrame(update);
+    }
+
+    // Spawn items every 1.2 seconds
+    setInterval(() => {
+      if (!gameOver) createItem();
+    }, 1200);
+
+    // Handle basket movement
+    function moveBasket(x) {
+      basketX = x - basketWidth / 2;
+      if (basketX < 0) basketX = 0;
+      if (basketX + basketWidth > canvas.width) basketX = canvas.width - basketWidth;
+    }
+
+    // Mouse and touch events
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      moveBasket(e.clientX - rect.left);
+    });
+
+    canvas.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+      const rect = canvas.getBoundingClientRect();
+      const touch = e.touches[0];
+      moveBasket(touch.clientX - rect.left);
+    }, { passive: false });
+
+    update();
+  </script>
+ </body>
+</html>
